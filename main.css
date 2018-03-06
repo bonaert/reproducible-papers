@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);html {
+    background-color: #fefefe
+}
+
+@font-face {
+    font-family: 'AvenirNextLTW01-Regular';
+    src: url("Avenir Next Regular.otf"); 
+    font-style: normal;
+}
+
+html {
+    background: #EEEEEE;
+    color: #333333;
+}
+
+body {
+    margin: 40px auto;
+    max-width: 780px;
+
+    text-align: justify !important;
+    
+    font-family: 'AvenirNextLTW01-Regular', Open Sans, Arial;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    line-height: 25px;
+    
+    
+    padding: 0 10px
+}
+
+p {
+    margin: 1em 0;
+}
+
+h1 {
+    line-height: 1.2
+}
+
+h2, h3 {
+    line-height: 1.2
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding: 8px;
+}
+
+.center {
+    text-align: center;
+}
+
+figcaption {
+    font-size:  12px;
+    text-align: center;
+}
